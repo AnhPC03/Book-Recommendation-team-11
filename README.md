@@ -4,17 +4,17 @@ Project was implemented by Team 9.
 
 ## Requirement
 
-Project requires python 3.
-Run following command to setup environment:
-``` pip install scipy ```
-``` pip install pandas ```
-``` pip install numpy ```
+Project requires python 3.\
+Run following command to setup environment:\
+``` pip install scipy ```\
+``` pip install pandas ```\
+``` pip install numpy ```\
 ``` pip install scikit-learn ```
 
 
 ## Make Recommendation
 
-To make recommendation for specified user, run following command:
+To make recommendation for specified user, run following command:\
 ``` python main.py --id userID --metric 'cosine' --k 10 --normalized 1 ```
 1. userID is specified id of user you want to make recommendation
 2. metric is what distance metric (cosine, correlation, euclidean) you want to use in caculate k-NN
