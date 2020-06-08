@@ -137,7 +137,7 @@ def evaluateRS(ratings, metric, k, normalized):
     number_items = ratings.shape[1]
     prediction = np.zeros((number_users, number_items))
     prediction = pd.DataFrame(prediction)
-    for i in range(50):
+    for i in range(100):
         similarities, indices = find_similarity(i, ratings, metric, k)
         for j in range(number_items):
             if int(ratings.iloc[i][j]) == 0:
