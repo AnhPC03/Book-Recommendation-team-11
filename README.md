@@ -1,6 +1,6 @@
 ## About Project
 
-Project was implemented by Team 9.
+Project was implemented by Team 11.
 
 ## Requirement
 
